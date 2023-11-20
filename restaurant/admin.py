@@ -1,9 +1,9 @@
 from django.contrib import admin
 
 # Register your models here.
-from .models import Booking, Menu
+from .models import Menu
+from .models import Booking
 
-admin.site.register(Booking)
+
 admin.site.register(Menu)
-
-# Run commands to make and perform migrations
+admin.site.register(Booking)
